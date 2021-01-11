@@ -6,7 +6,29 @@
         xmlns:local="clr-namespace:AislingMcLoughlin_S00189922"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+    <Grid Loaded="Grid_Loaded">
+        <ListBox x:Name="listboxAccount" HorizontalAlignment="Left" Height="282" Margin="35,100,0,0" VerticalAlignment="Top" Width="283"/>
+        <Label x:Name="labelAccountList" Content="Account List" HorizontalAlignment="Left" Margin="56,71,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="checkboxCurrentAccounts" Content="Current Accounts" HorizontalAlignment="Left" Margin="56,46,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="checkboxSavingsAccount" Content="Savings Account" HorizontalAlignment="Left" Margin="230,46,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="labelAccountDetails" Content="Account Details" HorizontalAlignment="Left" Margin="447,46,0,0" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textblockFirstName" HorizontalAlignment="Left" Margin="562,116,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock x:Name="TextblockLastName" HorizontalAlignment="Left" Margin="562,154,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textblockBalance" HorizontalAlignment="Left" Margin="562,196,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" RenderTransformOrigin="0.242,-0.031"/>
+        <TextBlock x:Name="textblockAccountType" HorizontalAlignment="Left" Margin="562,249,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+        <TextBlock x:Name="textblockBalance2" HorizontalAlignment="Left" Margin="562,285,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" RenderTransformOrigin="-0.242,0.569"/>
+        <TextBlock x:Name="textblockInterest" HorizontalAlignment="Left" Margin="562,320,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" RenderTransformOrigin="-0.387,0.644"/>
+        <TextBox x:Name="textboxTransactionAmount" HorizontalAlignment="Left" Height="23" Margin="562,381,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" RenderTransformOrigin="-0.103,0.674"/>
+        <Label x:Name="labelFirstName" Content="FirstName" HorizontalAlignment="Left" Margin="460,111,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="labelLastName" Content="Last Name" HorizontalAlignment="Left" Margin="460,152,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="labelBalance" Content="Balance" HorizontalAlignment="Left" Margin="460,191,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="labelAccountType" Content="Account Type" HorizontalAlignment="Left" Margin="460,244,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="labelBalance2" Content="Balance" HorizontalAlignment="Left" Margin="460,283,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="labelInterest" Content="Interest" HorizontalAlignment="Left" Margin="460,318,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.021,-0.316"/>
+        <Label x:Name="labelTransactionAmount" Content="Transaction Amount" HorizontalAlignment="Left" Margin="425,377,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="buttonDeposit" Content="Deposit" HorizontalAlignment="Left" Margin="702,111,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="labelWithdraw" Content="Withdraw" HorizontalAlignment="Left" Margin="702,158,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="labelInterest2" Content="Interest" HorizontalAlignment="Left" Margin="702,202,0,0" VerticalAlignment="Top" Width="75"/>
+
     </Grid>
 </Window>

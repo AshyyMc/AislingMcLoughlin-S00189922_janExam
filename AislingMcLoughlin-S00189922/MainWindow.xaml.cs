@@ -24,5 +24,10 @@ namespace AislingMcLoughlin_S00189922
 		{
 			InitializeComponent();
 		}
-	}
+
+		private void Window_Loaded(object sender, RoutedEventArgs e)
+		{
+
+		}
+		}
 }
